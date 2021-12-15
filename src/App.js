@@ -5,12 +5,19 @@ import './App.css';
 import Racing from './Racing';
 import Basketball from './Basketball';
 
+import Bowling from './Bowling';
+import Running from './Running';
+import Shooting from './Shooting';
+
 class App extends Component {
   render() {
     return (
       <div className="App">
         <Racing />
         <Basketball />
+        <Bowling />
+        <Running />
+        <Shooting />
       </div>
     )
   }
