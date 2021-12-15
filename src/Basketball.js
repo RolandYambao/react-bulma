@@ -28,8 +28,8 @@ const bballPayload = [
 const displayBasketballPlayers = bballPayload.map((player, idx) => {
     return (
         <div key={idx}>
-            <h1>Name {basketPlayer.name}</h1>
-            <p> Team {basketPlayer.team}</p>
+            <h1>Name {player.name}</h1>
+            <p> Team {player.team}</p>
         </div>
     );
 });
