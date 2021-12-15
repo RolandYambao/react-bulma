@@ -84,7 +84,7 @@ const displayTeam4 = searchTeam4.map((player, idx) => {
       <p>Team {player.team}</p>
     </div>
   )
-})
+});
 
 console.log(searchTeam4);
 
