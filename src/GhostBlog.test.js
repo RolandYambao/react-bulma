@@ -48,3 +48,15 @@ test('renders Blogs Post Content text', () => {
     const pElement = screen.getByText(/This is Blog Post 7/i);
     expect(pElement).toBeInTheDocument();
 });
+
+test('renders Blogs Post Title text', () => {
+    render(<GhostBlog />);
+    const h1Element = screen.getByText(/Blog Post Category 6/i);
+    expect(h1Element).toBeInTheDocument();
+});
+
+test('renders Blogs Post Title text', () => {
+    render(<GhostBlog />);
+    const h1Element = screen.getByText(/Blog Post Category 7/i);
+    expect(h1Element).toBeInTheDocument();
+});
