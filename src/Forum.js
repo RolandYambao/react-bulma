@@ -48,9 +48,8 @@ const displayCommentList = commentList.map((c, idx) => {
                     </div>
                 </div>
                 <div className="media-right">
-                    <span className="has-text-grey-light"
-                    ><i className="fa fa-comments"></i> 1
-                    </span>
+                    <span className="has-text-grey-light">
+                    <i className="fa fa-comments"></i>1</span>
                 </div>
             </div>
         </article>
