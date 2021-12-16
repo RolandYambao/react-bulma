@@ -243,6 +243,7 @@ class Kanban extends Component {
                         </div>
                     </div>
                 </footer>
+                <script async type="text/javascript" src="../js/bulma.js"></script>
             </div>
         );
     }
