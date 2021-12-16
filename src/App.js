@@ -4,7 +4,6 @@ import './App.css';
 // Components
 import Racing from './Racing';
 import Basketball from './Basketball';
-
 import Bowling from './Bowling';
 import Running from './Running';
 import Shooting from './Shooting';
