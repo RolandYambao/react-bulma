@@ -4,10 +4,11 @@ import './App.css';
 // Components
 import Racing from './Racing';
 import Basketball from './Basketball';
-import Cover from './Cover'
 import Bowling from './Bowling';
 import Running from './Running';
 import Shooting from './Shooting';
+import Cover from './Cover';
+import Login from './Login';
 
 class App extends Component {
   render() {
@@ -17,8 +18,9 @@ class App extends Component {
         <Basketball />
         <Bowling />
         <Running />
-        <Shooting /> */}
-        <Cover />
+        <Shooting />
+        <Cover /> */}
+        <Login />
       </div>
     )
   }
