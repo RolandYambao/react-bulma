@@ -96,7 +96,7 @@ class Forum extends Component {
                                     <div class="media">
                                         <div class="media-left">
                                             <p class="image is-32x32">
-                                                <img src="http://bulma.io/images/placeholders/128x128.png" alt="" />
+                                                <img src="http://bulma.io/images/placeholders/128x128.png" alt="placeholderProfilePicture" />
                                             </p>
                                         </div>
                                         <div class="media-content">
@@ -117,7 +117,7 @@ class Forum extends Component {
                                     <div class="media">
                                         <div class="media-left">
                                             <p class="image is-32x32">
-                                                <img src="http://bulma.io/images/placeholders/128x128.png" alt="" />
+                                                <img src="http://bulma.io/images/placeholders/128x128.png" alt="placeholderProfilePicture" />
                                             </p>
                                         </div>
                                         <div class="media-content">
@@ -138,7 +138,7 @@ class Forum extends Component {
                                     <div class="media">
                                         <div class="media-left">
                                             <p class="image is-32x32">
-                                                <img src="http://bulma.io/images/placeholders/128x128.png" alt="" />
+                                                <img src="http://bulma.io/images/placeholders/128x128.png" alt="placeholderProfilePicture" />
                                             </p>
                                         </div>
                                         <div class="media-content">
@@ -159,7 +159,7 @@ class Forum extends Component {
                                     <div class="media">
                                         <div class="media-left">
                                             <p class="image is-32x32">
-                                                <img src="http://bulma.io/images/placeholders/128x128.png" alt="" />
+                                                <img src="http://bulma.io/images/placeholders/128x128.png" alt="placeholderProfilePicture" />
                                             </p>
                                         </div>
                                         <div class="media-content">
@@ -180,7 +180,7 @@ class Forum extends Component {
                                     <div class="media">
                                         <div class="media-left">
                                             <p class="image is-32x32">
-                                                <img src="http://bulma.io/images/placeholders/128x128.png" alt="" />
+                                                <img src="http://bulma.io/images/placeholders/128x128.png" alt="placeholderProfilePicture" />
                                             </p>
                                         </div>
                                         <div class="media-content">
@@ -201,7 +201,7 @@ class Forum extends Component {
                                     <div class="media">
                                         <div class="media-left">
                                             <p class="image is-32x32">
-                                                <img src="http://bulma.io/images/placeholders/128x128.png" alt="" />
+                                                <img src="http://bulma.io/images/placeholders/128x128.png" alt="placeholderProfilePicture" />
                                             </p>
                                         </div>
                                         <div class="media-content">
