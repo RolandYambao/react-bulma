@@ -49,7 +49,7 @@ const displayCommentList = commentList.map((c, idx) => {
                 </div>
                 <div className="media-right">
                     <span className="has-text-grey-light">
-                    <i className="fa fa-comments"></i>1</span>
+                        <i className="fa fa-comments"></i>1</span>
                 </div>
             </div>
         </article>
@@ -140,7 +140,7 @@ class Forum extends Component {
                                     <li><span className="tag is-dark is-medium ">Payments</span></li>
                                     <li><span className="tag is-success is-medium ">Transfers</span></li>
                                     <li><span className="tag is-warning is-medium ">Balance</span></li>
-                                    <li><span className="tag is-medium ">Question</span></li>
+                                    <li><span className="tag is-medium " title="Question">Question</span></li>
                                 </ul>
                             </aside>
                         </div>
