@@ -1,45 +1,45 @@
 import { render, screen } from '@testing-library/react';
 import Forum from './Forum';
 
-test('renders dashboard tag', () => {
+test('renders Dashboard tag', () => {
   render(<Forum />);
   const spanElement = screen.getByText(/Dashboard/i);
   expect(spanElement).toBeInTheDocument();
 });
 
-test('renders customers tag', () => {
+test('renders Customers tag', () => {
   render(<Forum />);
   const spanElement = screen.getByText(/Customers/i);
   expect(spanElement).toBeInTheDocument();
 });
 
-test('renders authentication tag', () => {
+test('renders Authentication tag', () => {
   render(<Forum />);
   const spanElement = screen.getByText(/Authentication/i);
   expect(spanElement).toBeInTheDocument();
 });
 
-test('renders payments tag', () => {
+test('renders Payments tag', () => {
   render(<Forum />);
   const spanElement = screen.getByText(/Payments/i);
   expect(spanElement).toBeInTheDocument();
 });
 
-test('renders transfers tag', () => {
+test('renders Transfers tag', () => {
   render(<Forum />);
   const spanElement = screen.getByText(/Transfers/i);
   expect(spanElement).toBeInTheDocument();
 });
 
 
-test('renders balance tag', () => {
+test('renders Balance tag', () => {
   render(<Forum />);
   const spanElement = screen.getByText(/Balance/i);
   expect(spanElement).toBeInTheDocument();
 });
 
 
-test('renders question tag', () => {
+test('renders Question tag', () => {
   render(<Forum />);
   const spanElement = screen.getByTitle(/Question/i);
   expect(spanElement).toBeInTheDocument();
