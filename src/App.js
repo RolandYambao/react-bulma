@@ -9,11 +9,11 @@ import React, { Component } from 'react'
 // import Shooting from './Shooting';
 // import Cover from './Cover';
 // import Login from './Login';
-// import Admin from './Admin';
 // import Kanban from './Kanban';
 // import Hero from './Hero';
 // import Forum from './Forum';
-import GhostBlog from './GhostBlog';
+import Admin from './Admin';
+// import GhostBlog from './GhostBlog';
 
 class App extends Component {
   render() {
@@ -29,8 +29,8 @@ class App extends Component {
         {/* <Kanban /> */}
         {/* <Hero /> */}
         {/* <Forum /> */}
-        {/* <Admin /> */}
-        <GhostBlog />
+        <Admin />
+        {/* <GhostBlog /> */}
       </div>
     )
   }

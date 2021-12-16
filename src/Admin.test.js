@@ -42,3 +42,21 @@ test('renders Invitations subtitle', () => {
     const aElement = screen.getByText(/Invitations/i);
     expect(aElement).toBeInTheDocument();
 });
+
+test('renders Cloud Storage Environment Settings subtitle', () => {
+    render(<Admin />);
+    const aElement = screen.getByText(/Cloud Storage Environment Settings/i);
+    expect(aElement).toBeInTheDocument();
+});
+
+test('renders Authentication subtitle', () => {
+    render(<Admin />);
+    const aElement = screen.getByText(/Authentication/i);
+    expect(aElement).toBeInTheDocument();
+});
+
+test('renders Transfers subtitle', () => {
+    render(<Admin />);
+    const aElement = screen.getByText(/Transfers/i);
+    expect(aElement).toBeInTheDocument();
+});
