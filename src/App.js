@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './App.css';
+// import './App.css';
 
 // Components
 import Racing from './Racing';
@@ -9,6 +9,9 @@ import Running from './Running';
 import Shooting from './Shooting';
 import Cover from './Cover';
 import Login from './Login';
+import Admin from './Admin';
+import Kanban from './Kanban';
+import Hero from './Hero';
 
 class App extends Component {
   render() {
@@ -19,8 +22,11 @@ class App extends Component {
         <Bowling />
         <Running />
         <Shooting />
-        <Cover /> */}
-        <Login />
+        <Cover />
+        <Login /> */}
+        {/* <Admin /> */}
+        {/* <Kanban /> */}
+        <Hero />
       </div>
     )
   }
