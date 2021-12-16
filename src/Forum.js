@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import './Kanban.css';
+import './Forum.css';
 
-class Kanban extends Component {
+class Forum extends Component {
     render() {
         return (
             <div>
@@ -249,4 +249,4 @@ class Kanban extends Component {
     }
 }
 
-export default Kanban;
+export default Forum;
