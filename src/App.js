@@ -12,6 +12,7 @@ import Login from './Login';
 import Admin from './Admin';
 import Kanban from './Kanban';
 import Hero from './Hero';
+import Forum from './Forum';
 
 class App extends Component {
   render() {
@@ -26,7 +27,8 @@ class App extends Component {
         <Login /> */}
         {/* <Admin /> */}
         {/* <Kanban /> */}
-        <Hero />
+        {/* <Hero /> */}
+        <Forum />
       </div>
     )
   }
