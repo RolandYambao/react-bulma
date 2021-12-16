@@ -72,3 +72,5 @@ class Cover extends Component {
         );
     }
 }
+
+export default Cover;
