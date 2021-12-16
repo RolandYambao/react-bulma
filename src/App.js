@@ -2,17 +2,18 @@ import React, { Component } from 'react'
 // import './App.css';
 
 // Components
-import Racing from './Racing';
-import Basketball from './Basketball';
-import Bowling from './Bowling';
-import Running from './Running';
-import Shooting from './Shooting';
-import Cover from './Cover';
-import Login from './Login';
-import Admin from './Admin';
-import Kanban from './Kanban';
-import Hero from './Hero';
-import Forum from './Forum';
+// import Racing from './Racing';
+// import Basketball from './Basketball';
+// import Bowling from './Bowling';
+// import Running from './Running';
+// import Shooting from './Shooting';
+// import Cover from './Cover';
+// import Login from './Login';
+// import Admin from './Admin';
+// import Kanban from './Kanban';
+// import Hero from './Hero';
+// import Forum from './Forum';
+import GhostBlog from './GhostBlog';
 
 class App extends Component {
   render() {
@@ -25,10 +26,11 @@ class App extends Component {
         <Shooting />
         <Cover />
         <Login /> */}
-        <Admin />
         {/* <Kanban /> */}
         {/* <Hero /> */}
         {/* <Forum /> */}
+        {/* <Admin /> */}
+        <GhostBlog />
       </div>
     )
   }
