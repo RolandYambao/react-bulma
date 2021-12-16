@@ -125,7 +125,7 @@ class Admin extends Component {
                                     <div className="tile is-parent">
                                         <article className="tile is-child box">
                                             <p className="title">19</p>
-                                            <p className="subtitle">Exceptions</p>
+                                            <p className="subtitle" title="Exceptions">Exceptions</p>
                                         </article>
                                     </div>
                                 </div>

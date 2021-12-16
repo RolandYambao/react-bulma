@@ -25,10 +25,10 @@ class App extends Component {
         <Shooting />
         <Cover />
         <Login /> */}
-        {/* <Admin /> */}
+        <Admin />
         {/* <Kanban /> */}
         {/* <Hero /> */}
-        <Forum />
+        {/* <Forum /> */}
       </div>
     )
   }
