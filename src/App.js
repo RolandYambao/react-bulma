@@ -4,6 +4,7 @@ import './App.css';
 // Components
 import Racing from './Racing';
 import Basketball from './Basketball';
+import Cover from './Cover'
 import Bowling from './Bowling';
 import Running from './Running';
 import Shooting from './Shooting';
@@ -12,11 +13,12 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Racing />
+        {/* <Racing />
         <Basketball />
         <Bowling />
         <Running />
-        <Shooting />
+        <Shooting /> */}
+        <Cover />
       </div>
     )
   }
