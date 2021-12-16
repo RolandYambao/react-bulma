@@ -56,7 +56,6 @@ const displayCommentList = commentList.map((c, idx) => {
         </article>
     );
 });
-
 class Forum extends Component {
     render() {
         return (
