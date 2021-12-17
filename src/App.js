@@ -12,8 +12,8 @@ import React, { Component } from 'react'
 // import Kanban from './Kanban';
 // import Hero from './Hero';
 // import Forum from './Forum';
-import Admin from './Admin';
-// import GhostBlog from './GhostBlog';
+// import Admin from './Admin';
+import GhostBlog from './GhostBlog';
 // import Aside from './Aside';
 // import Cheatsheet from './Cheatsheet';
 // import Landing from './Landing';
@@ -31,8 +31,8 @@ class App extends Component {
         <Login />
         <Kanban /> 
         <Hero /> */}
-        <Admin />
-        {/* <GhostBlog /> */}
+        {/* <Admin /> */}
+        <GhostBlog />
         {/* <Forum /> */}
         {/* <Aside /> */}
         {/* <Cheatsheet /> */}

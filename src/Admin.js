@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './Admin.css';
 
 // Component
-import ArticleAdmin from './Article'
+import { ArticleAdmin } from './Article'
 
 const adminList = [
     {

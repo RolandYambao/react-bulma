@@ -51,5 +51,37 @@ class ArticleAdmin extends Component {
     }
 }
 
-// export default Article;
-export default ArticleAdmin;
+class ArticleGhostBlog extends Component {
+
+    constructor(props) {
+        super(props)
+    }
+
+    render() {
+        return (
+            <div className="column is-4 post" key={this.props.index}>
+                <article className="columns is-multiline">
+                    <div className="column is-12 post-img ">
+                        <img src="https://cdn.emk.dev/templates/featured-image.png" alt="" />
+                    </div>
+                    <div className="column is-12 featured-content va">
+                        <div>
+                            <h3 className="heading post-category">{this.props.category}</h3>
+                            <h1 className="title post-title">{this.props.title}</h1>
+                            <p className="post-excerpt">{this.props.content}</p>
+                            <br />
+                            <a href="#" className="button is-primary">Read More</a>
+                        </div>
+
+                    </div>
+                </article>
+            </div>
+        );
+    }
+}
+
+export {
+    Article,
+    ArticleAdmin,
+    ArticleGhostBlog,
+};

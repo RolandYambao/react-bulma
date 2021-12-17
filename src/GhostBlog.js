@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './GhostBlog.css';
 
+// Component
+import { ArticleGhostBlog } from './Article'
 
 const blogPost = {
     category: 'Blog Post Category 1',
@@ -43,23 +45,7 @@ const blogPostList = [
 
 const displayBlogPost = blogPostList.map((blog, idx) => {
     return (
-        <div className="column is-4 post" key={idx}>
-            <article className="columns is-multiline">
-                <div className="column is-12 post-img ">
-                    <img src="https://cdn.emk.dev/templates/featured-image.png" alt="" />
-                </div>
-                <div className="column is-12 featured-content va">
-                    <div>
-                        <h3 className="heading post-category">{blog.category}</h3>
-                        <h1 className="title post-title">{blog.title}</h1>
-                        <p className="post-excerpt">{blog.content}</p>
-                        <br />
-                        <a href="#" className="button is-primary">Read More</a>
-                    </div>
-
-                </div>
-            </article>
-        </div>
+        <ArticleGhostBlog key={idx} index={idx} category={blog.category} title={blog.title} content={blog.content} />
     );
 });
 
@@ -204,6 +190,7 @@ class GhostBlog extends Component {
                                     </article>
                                 </div>
                                 {displayBlogPost}
+                                <ArticleGhostBlog category={blogPost.category} title={blogPost.title} content={blogPost.content} />
                             </div>
                         </div>
                     </div>
