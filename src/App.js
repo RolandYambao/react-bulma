@@ -13,7 +13,8 @@ import React, { Component } from 'react'
 // import Hero from './Hero';
 // import Forum from './Forum';
 // import Admin from './Admin';
-import GhostBlog from './GhostBlog';
+// import GhostBlog from './GhostBlog';
+import Aside from './Aside';
 
 class App extends Component {
   render() {
@@ -25,12 +26,13 @@ class App extends Component {
         <Running />
         <Shooting />
         <Cover />
-        <Login /> */}
-        {/* <Kanban /> */}
-        {/* <Hero /> */}
-        {/* <Forum /> */}
-        {/* <Admin /> */}
-        <GhostBlog />
+        <Login />
+        <Kanban /> 
+        <Hero />
+        <Forum />
+        <Admin />
+        <GhostBlog /> */}
+        <Aside />
       </div>
     )
   }
