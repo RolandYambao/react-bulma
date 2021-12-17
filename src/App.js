@@ -14,7 +14,8 @@ import React, { Component } from 'react'
 // import Forum from './Forum';
 // import Admin from './Admin';
 // import GhostBlog from './GhostBlog';
-import Aside from './Aside';
+// import Aside from './Aside';
+import Cheatsheet from './Cheatsheet';
 
 class App extends Component {
   render() {
@@ -32,7 +33,8 @@ class App extends Component {
         <Forum />
         <Admin />
         <GhostBlog /> */}
-        <Aside />
+        {/* <Aside /> */}
+        <Cheatsheet />
       </div>
     )
   }
