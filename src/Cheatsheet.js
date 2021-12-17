@@ -32,7 +32,7 @@ const newSnippetList = [
 const displatSnippetList = newSnippetList.map((blog, idx) => {
     return (
         <div>
-            <div className="box">
+            <div className="box" key={idx}>
                 <h4 id="const" className="title is-3">{blog.snippet1}</h4>
                 <article className="message is-primary">
                     <span className="icon has-text-primary">
