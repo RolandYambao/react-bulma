@@ -11,12 +11,12 @@ import React, { Component } from 'react'
 // import Login from './Login';
 // import Kanban from './Kanban';
 // import Hero from './Hero';
-// import Forum from './Forum';
+import Forum from './Forum';
 // import Admin from './Admin';
 // import GhostBlog from './GhostBlog';
 // import Aside from './Aside';
 // import Cheatsheet from './Cheatsheet';
-import Landing from './Landing';
+// import Landing from './Landing';
 
 class App extends Component {
   render() {
@@ -31,12 +31,12 @@ class App extends Component {
         <Login />
         <Kanban /> 
         <Hero />
-        <Forum />
         <Admin />
         <GhostBlog /> */}
+        <Forum />
         {/* <Aside /> */}
         {/* <Cheatsheet /> */}
-        <Landing />
+        {/* <Landing /> */}
       </div>
     )
   }
