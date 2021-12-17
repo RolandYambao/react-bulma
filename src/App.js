@@ -15,8 +15,8 @@ import React, { Component } from 'react'
 // import Admin from './Admin';
 // import GhostBlog from './GhostBlog';
 // import Aside from './Aside';
-import Cheatsheet from './Cheatsheet';
-// import Landing from './Landing';
+// import Cheatsheet from './Cheatsheet';
+import Landing from './Landing';
 
 class App extends Component {
   render() {
@@ -35,8 +35,8 @@ class App extends Component {
         {/* <GhostBlog /> */}
         {/* <Forum /> */}
         {/* <Aside /> */}
-        <Cheatsheet />
-        {/* <Landing /> */}
+        {/* <Cheatsheet /> */}
+        <Landing />
       </div>
     )
   }

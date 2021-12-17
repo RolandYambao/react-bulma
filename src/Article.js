@@ -177,10 +177,32 @@ class ArticleCheatsheet extends Component {
     }
 }
 
+class ArticleLanding extends Component {
+
+    constructor(props) {
+        super(props)
+    }
+
+    render() {
+        return (
+            <div>
+                <h1 className="title" key={this.props.index}>
+                    {this.props.title}
+                </h1>
+                <h2 className="subtitle">
+                    {this.props.subtitle}
+                </h2>
+
+            </div>
+        );
+    }
+}
+
 export {
     ArticleForum,
     ArticleAdmin,
     ArticleGhostBlog,
     ArticleAside,
     ArticleCheatsheet,
+    ArticleLanding,
 };

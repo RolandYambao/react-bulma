@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import './Landing.css';
 
+// Component
+import { ArticleLanding } from './Article'
+
 const newIntro = {
     title: 'Title',
     subtitle: 'Subtitle',
@@ -31,15 +34,7 @@ const newIntroList = [
 
 const displayIntroList = newIntroList.map((blog, idx) => {
     return (
-        <div>
-            <h1 className="title" key={idx}>
-                {blog.title}
-            </h1>
-            <h2 className="subtitle">
-                {blog.subtitle}
-            </h2>
-
-        </div>
+        <ArticleLanding key={idx} index={idx} title={blog.title} subtitle={blog.subtitle} />
     );
 });
 
@@ -112,6 +107,7 @@ class Landing extends Component {
                                     $this is the best software platform for running an internet business. We handle billions of dollars every year for forward-thinking businesses around the world.
                                 </h2>
                                 {displayIntroList}
+                                <ArticleLanding title={newIntro.title} subtitle={newIntro.subtitle} />
                                 <div className="box">
                                     <div className="field is-grouped">
                                         <p className="control is-expanded">
