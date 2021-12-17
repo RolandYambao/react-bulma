@@ -1,6 +1,33 @@
 import React, { Component } from 'react';
 import './Admin.css';
 
+// Component
+import ArticleAdmin from './Article'
+
+const adminList = [
+    {
+        event: "This is an Event",
+    },
+    {
+        event: "This is another Event",
+    },
+    {
+        event: "This is a third Event",
+    },
+    {
+        event: "This is the penultimate Event",
+    },
+    {
+        event: "This is the last Event",
+    },
+];
+
+const displayAdminList = adminList.map((c, idx) => {
+    return (
+        <ArticleAdmin key={idx} index={idx} event={c.event} />
+    );
+});
+
 class Admin extends Component {
     render() {
         return (
@@ -192,6 +219,8 @@ class Admin extends Component {
                                                             <td>Lorum ipsum dolem aire</td>
                                                             <td className="level-right"><a className="button is-small is-primary" href="#">Action</a></td>
                                                         </tr>
+                                                        {displayAdminList}
+                                                        <ArticleAdmin event={adminList[0].event} />
                                                     </tbody>
                                                 </table>
                                             </div>

@@ -7,7 +7,6 @@ class Article extends Component {
     }
 
     render() {
-
         return (
             <article className="post" key={this.props.index}>
                 <h4>{this.props.message}</h4>
@@ -35,4 +34,22 @@ class Article extends Component {
     }
 }
 
-export default Article;
+class ArticleAdmin extends Component {
+
+    constructor(props) {
+        super(props)
+    }
+
+    render() {
+        return (
+            <tr key={this.props.index}>
+                <td width="5%"><i className="fa fa-bell-o"></i></td>
+                <td>{this.props.event}</td>
+                <td className="level-right"><a className="button is-small is-primary" href="#">Action</a></td>
+            </tr>
+        );
+    }
+}
+
+// export default Article;
+export default ArticleAdmin;
