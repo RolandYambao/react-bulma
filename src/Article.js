@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Article extends Component {
+class ArticleForum extends Component {
 
     constructor(props) {
         super(props)
@@ -81,7 +81,7 @@ class ArticleGhostBlog extends Component {
 }
 
 export {
-    Article,
+    ArticleForum,
     ArticleAdmin,
     ArticleGhostBlog,
 };

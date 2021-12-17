@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './Forum.css';
 
 // component
-import { Article } from './Article'
+import { ArticleForum } from './Article'
 
 const comment = {
     message: 'I love coding. All day everyday....',
@@ -54,7 +54,7 @@ const commentList = [
 
 const displayCommentList = commentList.map((c, idx) => {
     return (
-        <Article key={idx} index={idx} message={c.message} person={c.author} />
+        <ArticleForum key={idx} index={idx} message={c.message} person={c.author} />
     );
 });
 
@@ -156,7 +156,7 @@ class Forum extends Component {
                         </div>
                         <div className="column is-9">
                             <div className="box content">
-                                <Article index={99} message={comment.message} person={comment.author} />
+                                <ArticleForum index={99} message={comment.message} person={comment.author} />
                                 <article className="post">
                                     <h4>{comment.message}</h4>
                                     <div className="media">
