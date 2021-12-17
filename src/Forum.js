@@ -136,7 +136,7 @@ class Forum extends Component {
                         </div>
                         <div className="column is-9">
                             <div className="box content">
-                                <Article index={99} message={comment.message} person={comment.author} authorIntro={this.intro} />
+                                <Article index={99} message={comment.message} person={comment.author} />
                                 <article className="post">
                                     <h4>{comment.message}</h4>
                                     <div className="media">
@@ -263,7 +263,7 @@ class Forum extends Component {
                                         </div>
                                     </div>
                                 </article>
-                                {/* {displayCommentList} */}
+                                {displayCommentList}
                             </div>
                         </div>
                     </div>

@@ -7,8 +7,6 @@ class Article extends Component {
     }
 
     render() {
-        this.props.intro();
-
         return (
             <article className="post" key={this.props.index}>
                 <h4>{this.props.message}</h4>
