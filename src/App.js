@@ -12,8 +12,8 @@ import React, { Component } from 'react'
 // import Kanban from './Kanban';
 // import Hero from './Hero';
 // import Forum from './Forum';
-import Admin from './Admin';
-// import GhostBlog from './GhostBlog';
+// import Admin from './Admin';
+import GhostBlog from './GhostBlog';
 
 class App extends Component {
   render() {
@@ -29,8 +29,8 @@ class App extends Component {
         {/* <Kanban /> */}
         {/* <Hero /> */}
         {/* <Forum /> */}
-        <Admin />
-        {/* <GhostBlog /> */}
+        {/* <Admin /> */}
+        <GhostBlog />
       </div>
     )
   }
