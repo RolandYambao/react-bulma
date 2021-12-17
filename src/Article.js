@@ -139,9 +139,48 @@ class ArticleAside extends Component {
     }
 }
 
+class ArticleCheatsheet extends Component {
+
+    constructor(props) {
+        super(props)
+    }
+
+    render() {
+        return (
+            <div>
+                <div className="box" key={this.props.index}>
+                    <h4 id="const" className="title is-3">{this.props.snippet1}</h4>
+                    <article className="message is-primary">
+                        <span className="icon has-text-primary">
+                            <i className="fab fa-js"></i>
+                        </span>
+                        <div className="message-body">
+                            Block-scoped. Cannot be re-assigned. Not immutable.
+                        </div>
+                    </article>
+                    <pre><code className="language-javascript">const test = 'test';</code></pre>
+                </div>
+                <div className="box">
+                    <h4 id="let" className="title is-3">{this.props.snippet2}</h4>
+                    <article className="message is-primary">
+                        <span className="icon has-text-primary">
+                            <i className="fas fa-info-circle"></i>
+                        </span>
+                        <div className="message-body">
+                            Block-scoped. Can be re-assigned.
+                        </div>
+                    </article>
+                    <pre><code className="language-javascript">let i = 0;</code></pre>
+                </div>
+            </div>
+        );
+    }
+}
+
 export {
     ArticleForum,
     ArticleAdmin,
     ArticleGhostBlog,
     ArticleAside,
+    ArticleCheatsheet,
 };

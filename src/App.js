@@ -14,8 +14,8 @@ import React, { Component } from 'react'
 // import Forum from './Forum';
 // import Admin from './Admin';
 // import GhostBlog from './GhostBlog';
-import Aside from './Aside';
-// import Cheatsheet from './Cheatsheet';
+// import Aside from './Aside';
+import Cheatsheet from './Cheatsheet';
 // import Landing from './Landing';
 
 class App extends Component {
@@ -34,8 +34,8 @@ class App extends Component {
         {/* <Admin /> */}
         {/* <GhostBlog /> */}
         {/* <Forum /> */}
-        <Aside />
-        {/* <Cheatsheet /> */}
+        {/* <Aside /> */}
+        <Cheatsheet />
         {/* <Landing /> */}
       </div>
     )

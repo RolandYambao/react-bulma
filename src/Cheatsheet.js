@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import './Cheatsheet.css';
 
+// Component
+import { ArticleCheatsheet } from './Article'
+
 const newSnippet = {
     snippet1: 'Answer Pair -1',
     snippet2: 'Answer Pair 0',
@@ -31,32 +34,7 @@ const newSnippetList = [
 
 const displatSnippetList = newSnippetList.map((blog, idx) => {
     return (
-        <div>
-            <div className="box" key={idx}>
-                <h4 id="const" className="title is-3">{blog.snippet1}</h4>
-                <article className="message is-primary">
-                    <span className="icon has-text-primary">
-                        <i className="fab fa-js"></i>
-                    </span>
-                    <div className="message-body">
-                        Block-scoped. Cannot be re-assigned. Not immutable.
-                    </div>
-                </article>
-                <pre><code className="language-javascript">const test = 'test';</code></pre>
-            </div>
-            <div className="box">
-                <h4 id="let" className="title is-3">{blog.snippet2}</h4>
-                <article className="message is-primary">
-                    <span className="icon has-text-primary">
-                        <i className="fas fa-info-circle"></i>
-                    </span>
-                    <div className="message-body">
-                        Block-scoped. Can be re-assigned.
-                    </div>
-                </article>
-                <pre><code className="language-javascript">let i = 0;</code></pre>
-            </div>
-        </div>
+        <ArticleCheatsheet key={idx} index={idx} snippet1={blog.snippet1} snippet2={blog.snippet2} />
     );
 });
 
@@ -149,6 +127,7 @@ class Cheatsheet extends Component {
                                         <pre><code className="language-javascript">let i = 0;</code></pre>
                                     </div>
                                     {displatSnippetList}
+                                    <ArticleCheatsheet snippet1={newSnippet.snippet1} snippet2={newSnippet.snippet2} />
                                     <h3 className="title is-3">More to Come...</h3>
                                     <div className="box">
                                         <h4 id="lorem" className="title is-4">More to come...</h4>
