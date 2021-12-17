@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import './Aside.css';
 
+// Component
+import { ArticleAside } from './Article'
+
 const tileBlock = {
     tileBlock1: 'One',
     tileBlock2: 'Two',
@@ -21,54 +24,8 @@ const tileBlockList = [
 
 const displayTileBlock = tileBlockList.map((blog, idx) => {
     return (
-        <section className="column" key={idx}>
-            <div className="tile is-ancestor">
-                <div className="tile is-vertical is-8">
-                    <div className="tile">
-                        <div className="tile is-parent is-vertical">
-                            <article className="tile is-child notification is-primary">
-                                <p className="title">{blog.tileBlock1}</p>
-                                <p className="subtitle">Top tile</p>
-                            </article>
-                            <article className="tile is-child notification is-warning">
-                                <p className="title">{blog.tileBlock2}</p>
-                                <p className="subtitle">Bottom tile</p>
-                            </article>
-                        </div>
-                        <div className="tile is-parent">
-                            <article className="tile is-child notification is-info">
-                                <p className="title">{blog.tileBlock3}</p>
-                                <p className="subtitle">With an image</p>
-                                <figure className="image is-4by3">
-                                    <img src="https://bulma.io/images/placeholders/640x480.png" />
-                                </figure>
-                            </article>
-                        </div>
-                    </div>
-                    <div className="tile is-parent">
-                        <article className="tile is-child notification is-danger">
-                            <p className="title">{blog.tileBlock4}</p>
-                            <p className="subtitle">Aligned with the right tile</p>
-                            <div className="content">
-
-                            </div>
-                        </article>
-                    </div>
-                </div>
-                <div className="tile is-parent">
-                    <article className="tile is-child notification is-success">
-                        <div className="content">
-                            <p className="title">{blog.tileBlock5}</p>
-                            <p className="subtitle">With even more content</p>
-                            <div className="content">
-
-                            </div>
-                        </div>
-                    </article>
-                </div>
-            </div>
-        </section>
-    );
+        <ArticleAside key={idx} index={idx} tileBlock1={blog.tileBlock1} tileBlock2={blog.tileBlock2} tileBlock3={blog.tileBlock3} tileBlock4={blog.tileBlock4} tileBlock5={blog.tileBlock5} />
+    )
 });
 
 class Aside extends Component {
@@ -191,6 +148,7 @@ class Aside extends Component {
                         </div>
                     </section>
                     {displayTileBlock}
+                    <ArticleAside tileBlock1={tileBlock.tileBlock1} tileBlock2={tileBlock.tileBlock2} tileBlock3={tileBlock.tileBlock3} tileBlock4={tileBlock.tileBlock4} tileBlock5={tileBlock.tileBlock5} />
 
                 </div>
 

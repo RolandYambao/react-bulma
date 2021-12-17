@@ -13,8 +13,8 @@ import React, { Component } from 'react'
 // import Hero from './Hero';
 // import Forum from './Forum';
 // import Admin from './Admin';
-import GhostBlog from './GhostBlog';
-// import Aside from './Aside';
+// import GhostBlog from './GhostBlog';
+import Aside from './Aside';
 // import Cheatsheet from './Cheatsheet';
 // import Landing from './Landing';
 
@@ -32,9 +32,9 @@ class App extends Component {
         <Kanban /> 
         <Hero /> */}
         {/* <Admin /> */}
-        <GhostBlog />
+        {/* <GhostBlog /> */}
         {/* <Forum /> */}
-        {/* <Aside /> */}
+        <Aside />
         {/* <Cheatsheet /> */}
         {/* <Landing /> */}
       </div>

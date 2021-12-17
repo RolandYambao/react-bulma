@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Forum.css';
 
-// component
+// Component
 import { ArticleForum } from './Article'
 
 const comment = {
