@@ -30,7 +30,6 @@ test('renders Team Settings subtitle', () => {
     const aElement = screen.getByText(/Team Settings/i);
     expect(aElement).toBeInTheDocument();
 });
-
 test('renders Manage Your Team subtitle', () => {
     render(<Admin />);
     const aElement = screen.getByText(/Manage Your Team/i);
