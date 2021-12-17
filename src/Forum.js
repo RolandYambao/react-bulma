@@ -11,26 +11,46 @@ const comment = {
 
 const commentList = [
     {
-        message: 'I love bball....',
-        author: '@stephcurry',
+      message: "I love bball....",
+      author: "@stephcurry",
     },
     {
-        message: 'What are those???? ....',
-        author: '@mike',
+      message: "What are those???? ....",
+      author: "@mike",
     },
     {
-        message: 'What up ...',
-        author: '@john',
+      message: "What up ...",
+      author: "@john",
     },
     {
-        message: 'Comment here ...',
-        author: '@jake',
+      message: "Comment here ...",
+      author: "@jake",
     },
     {
-        message: 'Lets go ...',
-        author: '@tombrady',
+      message: "Lets go ...",
+      author: "@tombrady",
     },
-];
+    {
+      message: "what are those",
+      author: "@xanderino",
+    },
+    {
+      message: "lolcats",
+      author: "@whatever jones",
+    },
+    {
+      message: "crocs are stylish",
+      author: "@steve jobs",
+    },
+    {
+      message: "im with stupid",
+      author: "@stupid",
+    },
+    {
+      message: "*Memes*",
+      author: "@teenager",
+    },
+  ];
 
 const displayCommentList = commentList.map((c, idx) => {
     return (
